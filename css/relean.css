@@ -1,0 +1,49 @@
+/* main */
+body {
+    background-color:rgb(165, 127, 255);
+    
+}
+header {
+    margin: 64px auto 86px;
+}
+
+section  h1 {
+    margin:18px auto;
+    width: 300px;
+}
+
+section ul {
+    margin: 18px auto;
+    
+}
+
+/*header*/
+header {
+    background-color:rgb(0, 85, 85);
+    width:300px;
+    height: 150px;
+    font-size: 48px;
+    color:rgb(222, 240, 255);
+    text-decoration-line:underline;
+    box-shadow: 10px 10px 10px;
+}
+
+/* body */
+
+body section h1 {
+    background-color:rgb(3, 53, 53);
+    width: 300px;
+    color:rgb(222, 240, 255);
+    box-shadow: 10px 10px 10px;
+}
+
+body section h1::first-letter {
+    font-size:xx-large;
+}
+
+body section ul {
+    background-color:rgb(0, 85, 100);
+    width: 600px;
+    color:aliceblue;
+    box-shadow: 10px 10px 10px;
+}
